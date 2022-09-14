@@ -10,5 +10,5 @@ env:
   WEBBPSF_PATH: $HOME/data/webbpsf-data
   
 jobs:
-  HTMLBuilder:
+  NotebookExecutionValidation:
    uses: spacetelescope/notebook-ci-actions/.github/workflows/ci_validation.yml@hellouniverse
